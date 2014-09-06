@@ -1,0 +1,62 @@
+<html data-ng-app="magazineApp">
+<title>Sign up form Made By Koontal</title>
+<head>
+<script type="text/javascript" src="js/angular/angular.min.js"></script>
+<style type="text/css">
+  .css-form input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+  }
+  .css-form input.ng-valid.ng-dirty {
+    background-color: #78FA89;
+  }
+</style>
+</head>
+
+<body>
+<div data-ng-controller="AddUsers">
+<form novalidate class="css-form">
+First Name: 
+<input data-ng-model="user.fName" type="text" required>
+Middle Name: 
+<input data-ng-model="user.mName" type="text" required>
+Last Name: 
+<input data-ng-model="user.lNname" type="text" required>
+Email id:
+<input data-ng-model="user.emailId" type="email"> 
+<!-- <button ng-click="insertEmployee()" type="button">Add Employee</button> -->
+<!-- <input type="button" value="Add Users" data-ng-click="insertUsers(user)" />
+ -->
+ <!-- <button data-ng-click="reset()">RESET</button>
+<button data-ng-click="insertUsers()" >SAVE</button> -->
+<input type="button" value="Add Users" data-ng-click="insertUsers(user)" />
+<br>
+</form>
+{{status}}
+</div>
+
+<script type="text/javascript" src="js/angular/AddEmployeeController.js"></script>
+<!-- <table>
+<thead> 
+<tr>
+    <th>First Name</th>
+    <th>Middle Name</th>
+    <th>Last Name</th>
+    <th>Email id</th>
+</tr>
+</thead>
+<tbody>
+<tr data-ng-repeat="contact in contacts">
+    <td>{{ user.fName }}</td>
+    <td>{{ user.mName }}</td>
+    <td>{{ user.lName }}</td>
+     <td>{{ user.emailId }}</td>
+    <td>
+        <a  href="#" data-ng-click="edit(user.id)">edit</a> | 
+        <a href="#" data-ng-click="delete(user.id)">delete</a>
+    </td>
+ </tr>
+</tbody>
+</table>     -->
+
+</body>
+</html>

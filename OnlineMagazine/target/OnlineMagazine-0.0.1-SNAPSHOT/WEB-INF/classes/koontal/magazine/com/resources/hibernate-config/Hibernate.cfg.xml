@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file contains the configuration for hibernate on the application server. Please don't change the code without your supervisor's consent-->
+
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+	<!-- Hibernate Properties -->
+	<property name="hibernate.dialect">koontal.magazine.com.util.PostgreSQLDialect</property>
+	<property name="hibernate.show_sql">true</property>
+	<property name="format_sql">true</property>
+	<property name="use_sql_comments">true</property>
+	<!-- <property name="hibernate.transaction.auto_close_session">true</property> -->
+	<property name="hibernate.cache.use_second_level_cache">false</property>
+	<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property> 
+	<property name="hibernate.jdbc.batch_size">50</property>
+	<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>   
+	<property name="hibernate.query.startup_check">false</property>
+	<property name="order_inserts">true</property> 
+       
+
+	<!-- Testing mapping -->
+	<mapping class = "koontal.magazine.com.users.bean.UserBean"/>
+	
+	</session-factory>
+</hibernate-configuration>

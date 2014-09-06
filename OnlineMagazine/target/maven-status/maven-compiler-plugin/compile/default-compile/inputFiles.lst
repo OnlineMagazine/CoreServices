@@ -1,0 +1,16 @@
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\bean\UserBean.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\constants\MagazineConstants.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\to\response\UserAddResponse.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\util\common\CommonResponse.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\service\implementaion\UserAddServiceImpl.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\util\common\MagazineError.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\util\common\SeverityType.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\util\common\StatusType.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\service\IUserAddService.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\to\request\UserAddRequest.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\dao\IUserAddDao.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\dao\implementation\UserAddDaoImpl.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\users\controller\UserController.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\util\PostgreSQLDialect.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\constants\UserConstants.java
+G:\ECLIPSE_LUNO_WORKSPACE\OnlineMagazine\src\koontal\magazine\com\util\common\MagazineFieldLevelError.java
